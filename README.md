@@ -11,12 +11,11 @@ Install
 Setup
 ---------
 make ~/.cjdnsadmin.ini look like this:
-`[cjdns]
-importpath = <path to cjdns git>/contrib/python/
 
-adminpassword = <admin password>
-
-adminport = 11234`
+    [cjdns]
+    importpath = <path to cjdns git>/contrib/python/
+    adminpassword = <admin password>
+    adminport = 11234
 
 Test
 --------
