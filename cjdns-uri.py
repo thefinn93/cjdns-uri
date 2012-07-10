@@ -10,6 +10,7 @@ import shutil
 parser=ConfigParser.SafeConfigParser()
 try:
     parser.read([os.getenv("HOME") + '/.cjdnsadmin.ini'])
+    import_path = parser.get('cjdns','importPath')
     adminPassword = parser.get('cjdns','adminpassword')
     adminPort = parser.getint('cjdns','adminport')
 except:
@@ -17,6 +18,7 @@ except:
 
 Please make ~/.cjdnsadmin.ini and look a bit like this:
 [cjdns]
+importPath = <path to cjdns git>/contrib/python
 adminpassword = <your admin password>
 adminport = 11234"""
     sys.exit()
