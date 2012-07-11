@@ -19,4 +19,4 @@ make ~/.cjdnsadmin.ini look like this:
 
 Test
 --------
-[Click here](cjdns://71.197.195.166:10050/&password=null&key=wmfj5pugnvkcrr7qvjsz6hs1ljckvzfkwkv64mtuvnz9px1yq9c0.k) to add me as a peer
+[Go here](https://www.thefinn93.com/cjdns/uritest/) to add me as a peer
